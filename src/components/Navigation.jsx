@@ -1,7 +1,7 @@
 function NavJSX() {
     return (
         <>
-            <div className="flex bg-paletteOxfordBlue gap-11 py-5 px-4">
+            <div className="flex oxfordGradient gap-11 py-5 px-4">
                 <div className="flex-1">
                     <a>Matthew's Portfolio</a>
                 </div>

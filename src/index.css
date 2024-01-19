@@ -11,3 +11,9 @@
 div {
   color: white;
 }
+
+@layer {
+  .oxfordGradient {
+    @apply bg-gradient-to-l from-paletteOxfordBlue to-paletteRichBlack;
+  }
+}
