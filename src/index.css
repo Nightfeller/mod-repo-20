@@ -6,6 +6,7 @@
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   background: rgb(204,201,220);
   background: linear-gradient(68deg, rgba(204,201,220,1) 0%, rgba(214,201,220,1) 50%, rgba(220,204,201,1) 100%);
+  font-size: x-large;
 }
 
 div {
@@ -16,13 +17,13 @@ div {
   .oxfordGradient {
     @apply bg-gradient-to-l from-paletteOxfordBlue to-paletteRichBlack;
   }
+}
+
+@layer components {
   .nav-link {
     @apply transition-all hover:text-paletteCharcoal duration-500;
   }
   .lavenderGradient {
-    @apply bg-gradient-to-r from-[#ccc9dc] via-[#d6c9dc] to-[#dcccc9];
-  }
-  .nav-used {
-    @apply text-lavenderGradient;
+    @apply gradient-to-r from-[#ccc9dc] via-[#d6c9dc] to-[#dcccc9];
   }
 }
