@@ -16,4 +16,13 @@ div {
   .oxfordGradient {
     @apply bg-gradient-to-l from-paletteOxfordBlue to-paletteRichBlack;
   }
+  .nav-link {
+    @apply transition-all hover:text-paletteCharcoal duration-500;
+  }
+  .lavenderGradient {
+    @apply bg-gradient-to-r from-[#ccc9dc] via-[#d6c9dc] to-[#dcccc9];
+  }
+  .nav-used {
+    @apply text-lavenderGradient;
+  }
 }

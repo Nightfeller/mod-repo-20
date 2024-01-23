@@ -1,6 +1,6 @@
 import NavJSX from './Navigation.jsx';
 
-function HeaderJSX() {
+export default function HeaderJSX() {
     return (
         <>
             <nav className="overflow-hidden">
@@ -9,5 +9,3 @@ function HeaderJSX() {
         </>
     );
 }
-
-export default HeaderJSX;
