@@ -23,7 +23,7 @@ div {
   .nav-link {
     @apply transition-all hover:text-paletteCharcoal duration-500;
   }
-  .lavenderGradient {
-    @apply gradient-to-r from-[#ccc9dc] via-[#d6c9dc] to-[#dcccc9];
+  .purpleGradient {
+    @apply gradient-to-r from-violet-400 via-fuchsia-500 to-purple-700;
   }
 }

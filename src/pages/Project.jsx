@@ -1,9 +1,11 @@
+
+
 export default function ProjectJSX() {
     return (
         <>
-            <div>
+            <div className="flex justify-center">
                 <p>
-                    dujekabnskjgrbnerwotgkewthgulkhjn
+                <a href="https://nataniel-c.github.io/vibeify/"><img src="" alt="Project 1: Vibify" /></a>
                 </p>
             </div>
         </>
