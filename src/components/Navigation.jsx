@@ -9,13 +9,13 @@ export default function NavJSX() {
                 <div className="flex-1">
                     <a>Matthew's Portfolio</a>
                 </div>
-                <div className={currentPage === '/' ? 'nav-used' : 'nav-link'}>
+                <div className="nav-link">
                     <a href="/">About</a>
                 </div>
-                <div className={currentPage === '/Projects' ? 'nav-used' : 'nav-link'}>
+                <div className="nav-link">
                     <a href="/Projects">Projects</a>
                 </div>
-                <div className={currentPage === '/Contacts' ? 'nav-used' : 'nav-link'}>
+                <div className="nav-link">
                     <a href="/Contacts">Contacts</a>
                 </div>
             </div>
