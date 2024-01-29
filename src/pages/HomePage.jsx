@@ -11,7 +11,7 @@ export default function AboutJSX() {
             </div>
             <div className="flex justify-center text-paletteCharcoal text-wrap text-xl px-4 py-3">
                 <p>
-                    I am Peter Matthew Earls.
+                    I am Peter Matthew Earls, or just Matthew. I have autism and ADHD.
                     I went to the University of Texas where I attended the full-stack web development bootcamp 
                     in an effort to better myself in the world of programming. I have always liked games and have 
                     wanted to become either a game developer or game modder, but not a hacker, as that's immoral. 
