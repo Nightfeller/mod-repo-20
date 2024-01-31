@@ -1,6 +1,7 @@
 import vibify from '../assets/vibify.png';
 import dndBuilder from '../assets/dnd_builder.png';
 import placeholderImage from '../assets/placeholder-image.webp';
+import lfg from '../assets/lfg.png';
 
 export default function ProjectJSX() {
     return (
@@ -17,7 +18,7 @@ export default function ProjectJSX() {
             </div>
             <div className="flex justify-center py-5 px-7">
                 <p>
-                <a href="#"><img src={placeholderImage} alt="Project 3: LFG" /></a>
+                <a href="https://lfg-dw58.onrender.com/"><img src={lfg} alt="Project 3: LFG" /></a>
                 </p>
             </div>
         </>
